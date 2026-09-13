@@ -1,0 +1,26 @@
+{
+  "name": "gtdbrain",
+  "description": "GTD Brain for Claude: your Getting Things Done board as an MCP connector plus GTD skills and slash commands.",
+  "owner": {
+    "name": "Minosin AB",
+    "email": "admin@minosin.com",
+    "url": "https://gtdbrain.com"
+  },
+  "plugins": [
+    {
+      "name": "gtdbrain",
+      "source": "./",
+      "description": "Getting Things Done (GTD) board for Claude: capture to Inbox, next actions by context, projects, Waiting For, and a guided weekly review, over GTD Brain's hosted MCP server.",
+      "version": "1.0.0",
+      "homepage": "https://gtdbrain.com/connect/claude",
+      "category": "productivity",
+      "keywords": [
+        "gtd",
+        "tasks",
+        "productivity",
+        "weekly-review",
+        "mcp"
+      ]
+    }
+  ]
+}

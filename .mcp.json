@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gtdbrain": {
+      "type": "http",
+      "url": "https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp"
+    }
+  }
+}

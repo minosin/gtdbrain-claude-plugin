@@ -1,0 +1,15 @@
+{
+  "name": "gtdbrain",
+  "displayName": "GTD Brain",
+  "version": "1.0.0",
+  "description": "Getting Things Done (GTD) board for Claude. Capture what's on your mind straight to your Inbox, pull up next actions by context, keep projects and Waiting For honest, and run a proper weekly review — on the same board as the GTD Brain web, iOS, and Android apps. Bundles GTD Brain's hosted MCP server (sign in with an email code, no API key) plus GTD skills and slash commands.",
+  "author": {
+    "name": "Minosin AB",
+    "email": "admin@minosin.com",
+    "url": "https://gtdbrain.com"
+  },
+  "homepage": "https://gtdbrain.com/connect/claude",
+  "repository": "https://github.com/alz-ahm/gtdbrain-claude-plugin",
+  "license": "MIT",
+  "keywords": ["gtd", "getting-things-done", "tasks", "task-management", "productivity", "weekly-review", "inbox", "next-actions", "mcp"]
+}
