@@ -32,7 +32,7 @@ key, nothing to install) plus GTD skills and slash commands that teach Claude th
 ### Claude Code
 
 ```
-/plugin marketplace add alz-ahm/gtdbrain-claude-plugin
+/plugin marketplace add minosin/gtdbrain-claude-plugin
 /plugin install gtdbrain@gtdbrain
 ```
 
