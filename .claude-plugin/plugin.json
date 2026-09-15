@@ -9,7 +9,7 @@
     "url": "https://gtdbrain.com"
   },
   "homepage": "https://gtdbrain.com/connect/claude",
-  "repository": "https://github.com/alz-ahm/gtdbrain-claude-plugin",
+  "repository": "https://github.com/minosin/gtdbrain-claude-plugin",
   "license": "MIT",
   "keywords": ["gtd", "getting-things-done", "tasks", "task-management", "productivity", "weekly-review", "inbox", "next-actions", "mcp"]
 }
