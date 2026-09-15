@@ -2,10 +2,11 @@
 
 <img src="https://gtdbrain.com/gtdbrain/icon-512.png" alt="GTD Brain" width="96" align="right">
 
-Your [Getting Things Done](https://gtdbrain.com) board inside Claude. Capture what's on your
-mind straight to your Inbox, pull up next actions by context, keep projects and Waiting For
-honest, and run a proper weekly review — on the same board as the GTD Brain web, iOS, and
-Android apps, synced in real time.
+[GTD Brain](https://gtdbrain.com) is the GTD app ChatGPT and Claude can run for you — and this
+plugin is the Claude half. Capture what's on your mind straight to your Inbox, pull up next
+actions by context, keep projects and Waiting For honest, and run a proper weekly review, all by
+talking to Claude — on the same board as the GTD Brain web, iOS, and Android apps, synced in real
+time.
 
 The plugin bundles GTD Brain's **hosted MCP server** (you sign in with an email code — no API
 key, nothing to install) plus GTD skills and slash commands that teach Claude the method.
