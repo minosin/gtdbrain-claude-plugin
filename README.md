@@ -2,7 +2,7 @@
 
 <img src="https://gtdbrain.com/gtdbrain/icon-512.png" alt="GTD Brain" width="96" align="right">
 
-Your [Getting Things Done](https://gtdbrain.com) board inside Claude. Capture what's on your
+Your [Getting Things Done](https://gtdbrain.com/gtd-ai?source=claude-plugin) board inside Claude. Capture what's on your
 mind straight to your Inbox, pull up next actions by context, keep projects and Waiting For
 honest, and run a proper weekly review — on the same board as the GTD Brain web, iOS, and
 Android apps, synced in real time.
@@ -38,7 +38,7 @@ key, nothing to install) plus GTD skills and slash commands that teach Claude th
 
 Then run `/mcp`, choose `gtdbrain`, and sign in with your email code (or just ask Claude
 about your inbox — the sign-in tab opens on the first call). `/gtdbrain:setup` confirms the
-connection. Full guide: [gtdbrain.com/connect/claude-code](https://gtdbrain.com/connect/claude-code).
+connection. Full guide: [gtdbrain.com/connect/claude-code](https://gtdbrain.com/connect/claude-code?source=claude-plugin).
 
 ### Claude Desktop, Cowork, and claude.ai
 
@@ -51,7 +51,7 @@ https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp
 ```
 
 Click **Connect**, enter your email, type the code we send you, click **Allow**. Full guide
-with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/claude).
+with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/claude?source=claude-plugin).
 
 > Custom connectors require a paid Claude plan. Because GTD Brain is not (yet) in Anthropic's
 > Connectors Directory, Claude may label it an unverified third-party connector when you
@@ -70,7 +70,7 @@ with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/cla
 - No account needed in advance: signing in with a new email creates one.
 - After connecting, free accounts get a handful of tool actions to try the connection.
   Ongoing use needs a GTD Brain subscription — the one subscription that also covers the web,
-  iOS, and Android apps. Pricing at [gtdbrain.com](https://gtdbrain.com).
+  iOS, and Android apps. Pricing at [gtdbrain.com](https://gtdbrain.com/?source=claude-plugin).
 
 ## Privacy, terms, and support
 

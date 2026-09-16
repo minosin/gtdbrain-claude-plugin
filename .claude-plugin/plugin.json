@@ -6,9 +6,9 @@
   "author": {
     "name": "Minosin AB",
     "email": "admin@minosin.com",
-    "url": "https://gtdbrain.com"
+    "url": "https://gtdbrain.com/gtd-ai?source=claude-plugin"
   },
-  "homepage": "https://gtdbrain.com/connect/claude",
+  "homepage": "https://gtdbrain.com/connect/claude-code?source=claude-plugin",
   "repository": "https://github.com/minosin/gtdbrain-claude-plugin",
   "license": "MIT",
   "keywords": ["gtd", "getting-things-done", "tasks", "task-management", "productivity", "weekly-review", "inbox", "next-actions", "mcp"]
