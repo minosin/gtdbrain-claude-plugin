@@ -10,6 +10,10 @@ Android apps, synced in real time.
 The plugin bundles GTD Brain's **hosted MCP server** (you sign in with an email code — no API
 key, nothing to install) plus GTD skills and slash commands that teach Claude the method.
 
+Away from Claude, message the GTD Brain bot on Telegram
+([@GTDBrainBot](https://t.me/GTDBrainBot?start=claude-plugin)), typed or as a voice note, and it
+lands in the same Inbox.
+
 ## What you get
 
 - **16 MCP tools** — `capture`, `list_next_actions`, `list_projects`, `list_waiting_for`,
