@@ -12,8 +12,8 @@ device code, or token — sign-in is owned by the Claude client, not by this ski
 
 ## Procedure
 
-1. Call the `list_contexts` tool with no arguments (it is a free schema lookup and does not
-   spend the user's trial allowance).
+1. Call the `list_contexts` tool with no arguments (a schema lookup; on an account without a
+   membership it answers with the membership notice, which still proves the connection).
 2. Branch on the result.
 
 ### A — The call succeeds

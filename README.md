@@ -16,9 +16,11 @@ lands in the same Inbox.
 
 ## What you get
 
-- **16 MCP tools** — `capture`, `list_next_actions`, `list_projects`, `list_waiting_for`,
-  `search_cards`, `create_card`, `update_card`, `move_card`, `archive_card`, context
-  management, and more. Claude calls them on its own when you talk about your tasks.
+- **20 MCP tools** — `capture`, `list_next_actions`, `list_projects`, `list_waiting_for`,
+  `show_board`, `search_cards`, `create_card`, `update_card`, `move_card`, `archive_card`,
+  context management, and more. Claude calls them on its own when you talk about your tasks.
+  In Claude's web, desktop and mobile apps the board results render as an inline card you can
+  tick items off on; Claude Code gets the same results as text.
 - **A GTD skill** that keeps Claude honest: capture first and clarify later, verb-first next
   actions, every project has a next action, never answer about your board from memory.
 - **Slash commands**
@@ -72,9 +74,10 @@ with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/cla
 ## Account and pricing
 
 - No account needed in advance: signing in with a new email creates one.
-- After connecting, free accounts get a handful of tool actions to try the connection.
-  Ongoing use needs a GTD Brain subscription — the one subscription that also covers the web,
-  iOS, and Android apps. Pricing at [gtdbrain.com](https://gtdbrain.com/?source=claude-plugin).
+- GTD Brain is a paid membership, the one that also covers the web, iOS, and Android apps.
+  Without one, anything you capture still lands on your board and the reply says what the
+  account needs; reading the board needs the membership. Plans at
+  [gtdbrain.com/pricing](https://gtdbrain.com/pricing?source=claude-plugin).
 
 ## Privacy, terms, and support
 

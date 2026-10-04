@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 — 2026-10-04
+
+- Follows the server's current membership behaviour: on an account without a membership a
+  write still lands on the board and the reply ends with a short notice; a read returns the
+  notice. The `gtd` and `setup` skills describe that instead of a free allowance.
+- 20 tools (adds `show_board` and the context tools); board results render as an inline card
+  in Claude's web, desktop and mobile apps.
+
 ## 1.0.0 — 2026-09-13
 
 - First release: GTD Brain hosted MCP server (`https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp`),
