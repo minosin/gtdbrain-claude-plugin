@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-10-06
+
+- A `SessionStart` hook for Claude Code and Cowork. A plain shell script
+  (`hooks/session-start.sh`) prints one fixed note at session start: GTD Brain is the user's
+  to-do board, capture their own to-dos there, and follow `/gtdbrain:setup` if the tools are
+  missing. No network calls, no files, nothing sent anywhere. The connect steps stay in the
+  `setup` skill only. Described in the README under "Session hook".
+
 ## 1.1.1 — 2026-10-06
 
 - README and the `setup` skill lead with the Connect step: on claude.ai, Claude Desktop and

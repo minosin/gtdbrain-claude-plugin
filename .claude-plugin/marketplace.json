@@ -11,7 +11,7 @@
       "name": "gtdbrain",
       "source": "./",
       "description": "Getting Things Done (GTD) board for Claude: capture to Inbox, next actions by context, projects, Waiting For, and a guided weekly review, over GTD Brain's hosted MCP server.",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "homepage": "https://gtdbrain.com/connect/claude-code?source=claude-plugin",
       "category": "productivity",
       "keywords": [
