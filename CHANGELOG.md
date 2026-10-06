@@ -10,6 +10,10 @@
 - Directory listing fields in `plugin.json`: an `icon` (`icon.png`, the 512×512 app icon)
   and links for documentation, support, privacy policy and terms. Claude Code does not read
   them; only the plugin directory listing shows them.
+- `.mcp.json` sends an `x-platform: claude-plugin` header so GTD Brain can count plugin use
+  apart from the custom connector. The URL stays the same, so Claude still treats the plugin
+  and the GTD Brain connector as one server and sign-in is unchanged. The header carries no
+  personal data.
 
 ## 1.1.1 — 2026-10-06
 

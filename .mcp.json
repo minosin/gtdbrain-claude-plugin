@@ -2,7 +2,10 @@
   "mcpServers": {
     "gtdbrain": {
       "type": "http",
-      "url": "https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp"
+      "url": "https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp",
+      "headers": {
+        "x-platform": "claude-plugin"
+      }
     }
   }
 }
