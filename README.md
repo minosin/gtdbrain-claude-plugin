@@ -36,6 +36,9 @@ lands in the same Inbox.
   - `/gtdbrain:setup` — check the connection and walk through sign-in
 - **Safety by design** — Claude can read, add, edit, move, and archive cards, but can never
   delete one. Archived cards stay recoverable.
+- **A session-start note** (Claude Code and Cowork) — a small shell script tells Claude that
+  GTD Brain is your to-do board, and to help you connect if the tools are missing. See
+  [Session hook](#session-hook).
 
 ## Install
 
@@ -90,8 +93,10 @@ https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp
 
 - Privacy policy: https://gtdbrain.com/privacy
 - Terms of use: https://gtdbrain.com/terms
-- Data stays in your GTD Brain account; the plugin itself contains no code that runs on your
-  machine — only this configuration and the skill text you can read in this repository.
+- Data stays in your GTD Brain account. The only code the plugin runs on your machine is
+  [`hooks/session-start.sh`](./hooks/session-start.sh), which prints a fixed note and nothing
+  else (see [Session hook](#session-hook)); the rest is configuration and skill text you can
+  read in this repository.
 - Support and security reports: **admin@minosin.com**. Disconnect at any time from your
   Claude client's connector settings.
 
@@ -100,7 +105,24 @@ https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp
 `.mcp.json` points Claude at `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp`, a streamable-HTTP
 MCP server with OAuth 2.1 sign-in (dynamic client registration; the server card is at
 [`/.well-known/mcp/server-card.json`](https://mcp.gtdbrain.com/.well-known/mcp/server-card.json)).
-The `skills/` folder holds the GTD instructions Claude follows. Nothing else.
+The `skills/` folder holds the GTD instructions Claude follows, and `hooks/` holds the
+session hook below. Nothing else.
+
+## Session hook
+
+The plugin registers one `SessionStart` hook ([`hooks/hooks.json`](./hooks/hooks.json)). It
+runs in Claude Code and Cowork; claude.ai ignores plugin hooks. When a session starts, is
+cleared, or is compacted, it runs [`hooks/session-start.sh`](./hooks/session-start.sh), a plain
+shell script that prints this one fixed note, which Claude reads as context:
+
+> GTD Brain plugin: GTD Brain is this user's personal to-do board. When the user mentions their
+> own to-dos, reminders or follow-ups (not tasks or TODOs in code), capture them there. If the
+> gtdbrain tools are missing or ask for sign-in, follow /gtdbrain:setup.
+
+The note is the same every time. The script makes **no network calls**, reads **no files,
+environment variables or input**, writes nothing, and sends nothing anywhere. It cannot tell
+whether you are signed in, so the note only says what to do if the tools are missing. To turn
+it off, disable the plugin (`/plugin` in Claude Code).
 
 ## License
 
