@@ -9,6 +9,11 @@
     "url": "https://gtdbrain.com/gtd-ai?source=claude-plugin"
   },
   "homepage": "https://gtdbrain.com/connect/claude-code?source=claude-plugin",
+  "icon": "./icon.png",
+  "documentationUrl": "https://gtdbrain.com/connect/claude?source=claude-plugin",
+  "supportUrl": "https://gtdbrain.com/support?source=claude-plugin",
+  "privacyPolicyUrl": "https://gtdbrain.com/privacy",
+  "termsOfServiceUrl": "https://gtdbrain.com/terms",
   "repository": "https://github.com/minosin/gtdbrain-claude-plugin",
   "license": "MIT",
   "keywords": ["gtd", "getting-things-done", "tasks", "task-management", "productivity", "weekly-review", "inbox", "next-actions", "mcp"]

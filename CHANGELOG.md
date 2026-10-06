@@ -7,6 +7,9 @@
   to-do board, capture their own to-dos there, and follow `/gtdbrain:setup` if the tools are
   missing. No network calls, no files, nothing sent anywhere. The connect steps stay in the
   `setup` skill only. Described in the README under "Session hook".
+- Directory listing fields in `plugin.json`: an `icon` (`icon.png`, the 512×512 app icon)
+  and links for documentation, support, privacy policy and terms. Claude Code does not read
+  them; only the plugin directory listing shows them.
 
 ## 1.1.1 — 2026-10-06
 
