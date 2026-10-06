@@ -12,8 +12,9 @@ type the code we send you, and click **Allow**. A new email creates an account.
    to sign in where they are:
    - **Claude Code:** `/mcp` → `gtdbrain` → follow the prompt (it prints the URL if no browser
      opens).
-   - **Claude Desktop / Cowork / claude.ai:** installing does not connect it. Open the
-     plugin's **Connectors** tab and click **Connect** (without the plugin: **Settings →
+   - **claude.ai / Claude Desktop / Cowork:** installing does not connect it. Left sidebar →
+     **Customize → Plugins → GTD Brain** → **Connectors** tab → connect **GTD Brain**.
+     Only people using GTD Brain without the plugin add a custom connector (**Settings →
      Connectors → Add custom connector** with `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp`).
 3. Never fabricate a sign-in URL, device code, or token, and never ask for the email code —
    the Claude client owns the OAuth flow.

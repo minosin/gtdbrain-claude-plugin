@@ -30,12 +30,15 @@ Tell the user, adapting to where they are:
 - **Claude Code (terminal):** run `/mcp`, choose `gtdbrain`, and follow the sign-in prompt.
   A browser tab opens on GTD Brain's sign-in page; enter an email, type the code that arrives,
   click **Allow**. If the tab never opens (e.g. over SSH), `/mcp` prints the URL to open by hand.
-- **Claude Desktop / Cowork / claude.ai:** installing the plugin does not connect it. Open
-  the plugin's **Connectors** tab and click **Connect**, then complete the same email-code
-  sign-in. (Without the plugin: **Settings → Connectors → Add custom connector** with
-  `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp`.)
+- **claude.ai, Claude Desktop, and Cowork:** installing the plugin does not connect it. In
+  the left sidebar, open **Customize → Plugins → GTD Brain**, go to the **Connectors** tab,
+  and connect **GTD Brain** there. Then complete the same email-code sign-in. Do not send
+  plugin users to Settings to add a custom connector: that creates a second, separate
+  connector the plugin does not use.
+- **Using GTD Brain without the plugin:** **Settings → Connectors → Add custom connector**
+  with `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp`. Custom connectors require a paid
+  Claude plan.
 - No GTD Brain account is needed in advance — signing in with a new email creates one.
-  Custom connectors require a paid Claude plan.
 
 Then ask them to run `/gtdbrain:setup` again to confirm.
 

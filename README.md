@@ -1,7 +1,7 @@
 # GTD Brain — Claude plugin
 
-**After installing, open the plugin's Connectors tab and click Connect.** Then sign in with
-your email code. Until you do, Claude has none of the GTD Brain tools. (In Claude Code, run
+**After installing, connect it: Customize → Plugins → GTD Brain → Connectors tab.** Then sign
+in with your email code. Until you do, Claude has none of the GTD Brain tools. (In Claude Code, run
 `/mcp` and choose `gtdbrain` instead.)
 
 <img src="https://gtdbrain.com/gtdbrain/icon-512.png" alt="GTD Brain" width="96" align="right">
@@ -53,8 +53,8 @@ connection. Full guide: [gtdbrain.com/connect/claude-code](https://gtdbrain.com/
 ### Claude Desktop, Cowork, and claude.ai
 
 1. Install GTD Brain from the plugin directory.
-2. Open the plugin's **Connectors** tab and click **Connect**. Installing alone does not
-   connect it.
+2. In the left sidebar, open **Customize → Plugins → GTD Brain**, go to the **Connectors**
+   tab, and connect **GTD Brain**. Installing alone does not connect it.
 3. Enter your email, type the code we send you, and click **Allow**.
 
 Full guide with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/claude?source=claude-plugin).

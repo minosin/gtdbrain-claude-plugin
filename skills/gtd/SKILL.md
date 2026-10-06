@@ -8,7 +8,9 @@ description: Keeps the user's personal to-do list, reminders and plans on their 
 GTD Brain is the user's Getting Things Done board. The `gtdbrain` MCP server in this plugin
 reads and writes the same board the user sees in the GTD Brain web, iOS, and Android apps.
 Tool names appear as `mcp__plugin_gtdbrain_gtdbrain__<tool>` (or `gtdbrain:<tool>` on some
-surfaces). If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
+surfaces). If no GTD Brain tool is available, or a call answers with
+401 / "authentication required", follow the `setup` skill (`/gtdbrain:setup`) for the exact
+connect steps instead of guessing.
 
 ## The board
 

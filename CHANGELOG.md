@@ -4,7 +4,11 @@
 
 - README and the `setup` skill lead with the Connect step: on claude.ai, Claude Desktop and
   Cowork, installing the plugin does not connect its MCP server, so open the plugin's
-  Connectors tab and click Connect.
+  Connectors tab and connect GTD Brain.
+- The `setup` skill and SETUP.md give the full path (Customize → Plugins → GTD Brain →
+  Connectors tab) and no longer send plugin users to add a second, custom connector. The
+  custom-connector route is now only for people who use GTD Brain without the plugin. The
+  `gtd` skill sends authentication errors to `setup` too.
 - SETUP.md drops the old free-allowance wording.
 - Skill descriptions lead with how people talk ("add to my to-do list", "remind me to",
   "what should I do today", "plan my week", "follow up with…", "I'm waiting on…") instead of
