@@ -1,5 +1,9 @@
 # GTD Brain — Claude plugin
 
+**After installing, connect it: Customize → Plugins → GTD Brain → Connectors tab.** Then sign
+in with your email code. Until you do, Claude has none of the GTD Brain tools. (In Claude Code, run
+`/mcp` and choose `gtdbrain` instead.)
+
 <img src="https://gtdbrain.com/gtdbrain/icon-512.png" alt="GTD Brain" width="96" align="right">
 
 Your [Getting Things Done](https://gtdbrain.com/gtd-ai?source=claude-plugin) board inside Claude. Capture what's on your
@@ -48,20 +52,23 @@ connection. Full guide: [gtdbrain.com/connect/claude-code](https://gtdbrain.com/
 
 ### Claude Desktop, Cowork, and claude.ai
 
-Install the plugin from the plugin directory once it is listed there, or add GTD Brain as a
-custom connector: **Settings → Connectors → Add custom connector**, name it *GTD Brain*, and
-paste
+1. Install GTD Brain from the plugin directory.
+2. In the left sidebar, open **Customize → Plugins → GTD Brain**, go to the **Connectors**
+   tab, and connect **GTD Brain**. Installing alone does not connect it.
+3. Enter your email, type the code we send you, and click **Allow**.
+
+Full guide with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/claude?source=claude-plugin).
+
+Without the plugin, you can add the same server as a custom connector: **Settings →
+Connectors → Add custom connector**, name it *GTD Brain*, and paste
 
 ```
 https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp
 ```
 
-Click **Connect**, enter your email, type the code we send you, click **Allow**. Full guide
-with screenshots: [gtdbrain.com/connect/claude](https://gtdbrain.com/connect/claude?source=claude-plugin).
-
-> Custom connectors require a paid Claude plan. Because GTD Brain is not (yet) in Anthropic's
-> Connectors Directory, Claude may label it an unverified third-party connector when you
-> install — that is the expected notice for any independent MCP server.
+> Custom connectors require a paid Claude plan. Claude may label GTD Brain an unverified
+> third-party connector when you connect — that is the expected notice for any independent
+> MCP server.
 
 ## Try it
 

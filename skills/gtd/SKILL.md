@@ -1,6 +1,6 @@
 ---
 name: gtd
-description: How to run the user's Getting Things Done (GTD) board through the GTD Brain tools. Use whenever the user mentions something they need to do, remember, or follow up on, asks what to work on, wants to clarify their inbox, review projects, chase people they are waiting on, or run a weekly review.
+description: Keeps the user's personal to-do list, reminders and plans on their GTD Brain board (Getting Things Done). Use when the user says "add this to my to-do list", "remind me to…", "I need to…", "don't let me forget…", "what's on my list?", "what should I do today?", "plan my week", "follow up with Sam", or "I'm waiting on…", or asks about their own tasks, projects, inbox, next actions, Waiting For, or weekly review. Only for the user's own to-dos, not tasks or TODOs in a code project.
 ---
 
 # GTD Brain
@@ -8,7 +8,9 @@ description: How to run the user's Getting Things Done (GTD) board through the G
 GTD Brain is the user's Getting Things Done board. The `gtdbrain` MCP server in this plugin
 reads and writes the same board the user sees in the GTD Brain web, iOS, and Android apps.
 Tool names appear as `mcp__plugin_gtdbrain_gtdbrain__<tool>` (or `gtdbrain:<tool>` on some
-surfaces). If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
+surfaces). If no GTD Brain tool is available, or a call answers with
+401 / "authentication required", follow the `setup` skill (`/gtdbrain:setup`) for the exact
+connect steps instead of guessing.
 
 ## The board
 

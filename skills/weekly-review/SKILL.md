@@ -1,10 +1,11 @@
 ---
 name: weekly-review
-description: Run the user's GTD weekly review in three phases — Get Clear, Get Current, Get Creative — reading every list with a tool. Use when the user asks for a weekly review or wants to get their whole system current.
+description: Plan the user's week with a GTD weekly review of their GTD Brain board. Use when they say "plan my week", "weekly review", "help me get organised", "I feel behind", or want their whole to-do list, projects and follow-ups up to date.
 ---
 
 Run the user's GTD weekly review, reading every list with a tool and never from memory.
 Go one list at a time and wait for the user's answers.
+If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
 
 **Phase 1 — Get Clear.** Call `list_columns`, then `list_cards` for the Inbox, and clarify each
 card: a next action (`move_card` to Next Actions, `update_card` with a context), a project plus
