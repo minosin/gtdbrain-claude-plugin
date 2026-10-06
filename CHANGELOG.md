@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1 — 2026-10-06
+
+- README and the `setup` skill lead with the Connect step: on claude.ai, Claude Desktop and
+  Cowork, installing the plugin does not connect its MCP server, so open the plugin's
+  Connectors tab and click Connect.
+- SETUP.md drops the old free-allowance wording.
+
 ## 1.1.0 — 2026-10-04
 
 - Follows the server's current membership behaviour: on an account without a membership a
