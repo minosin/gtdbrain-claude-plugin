@@ -6,6 +6,12 @@
   Cowork, installing the plugin does not connect its MCP server, so open the plugin's
   Connectors tab and click Connect.
 - SETUP.md drops the old free-allowance wording.
+- Skill descriptions lead with how people talk ("add to my to-do list", "remind me to",
+  "what should I do today", "plan my week", "follow up with…", "I'm waiting on…") instead of
+  GTD terms, so Claude picks the skills up more often. Each stays tied to the user's own
+  to-dos and rules out TODOs or tasks in a code project.
+- Every skill that can start a conversation sends the user to `/gtdbrain:setup` when the
+  GTD Brain tools are missing; `waiting-for` can add a new item someone owes the user.
 
 ## 1.1.0 — 2026-10-04
 

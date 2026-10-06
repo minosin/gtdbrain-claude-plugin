@@ -1,10 +1,11 @@
 ---
 name: capture
-description: Capture one or more things to the user's GTD Brain Inbox. Use when the user says "capture", "add to my inbox", "remind me to", "I need to", or lists things on their mind.
+description: Add things to the user's to-do list (their GTD Brain Inbox). Use when the user says "add … to my list", "put … on my to-do list", "remind me to…", "I need to…", "I have to…", "don't let me forget…", "capture", or lists several things on their mind. Not for TODO comments in code.
 argument-hint: <what to capture>
 ---
 
 Capture "$ARGUMENTS" to the user's GTD Brain Inbox.
+If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
 
 - If the text holds several distinct items (separate lines, "and", commas between unrelated
   things), call `capture` once per item, each with a short, specific title. Keep any detail

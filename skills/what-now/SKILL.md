@@ -1,10 +1,11 @@
 ---
 name: what-now
-description: Pick the next actions that fit where the user is right now. Use when the user asks what to do, what to work on, or says where they are or how much time they have.
+description: Suggest what the user should do now from their own to-do list (GTD Brain next actions). Use when they ask "what should I do today?", "what can I get done in 30 minutes?", "I'm out, any errands?", or say where they are or how much time or energy they have. Not for choosing coding tasks in a repo.
 argument-hint: [context, e.g. calls, computer, errands, home]
 ---
 
 Help the user decide what to do right now. Context hint from the user: "$ARGUMENTS".
+If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
 
 1. If a context was given, call `list_next_actions` with it; if the tool says the context is
    unknown, pick the closest id from the list it returns and say which one you used.

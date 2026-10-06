@@ -1,9 +1,10 @@
 ---
 name: inbox-zero
-description: Process the user's GTD Brain Inbox to zero, clarifying every card into a next action, project, waiting-for, someday, or archive. Use when the user wants to clarify, triage, or empty their inbox.
+description: Sort the user's GTD Brain Inbox to zero, one item at a time. Use when they say "sort my to-do list", "clean up my list", "go through my GTD inbox", or want to clarify, triage, or empty their inbox.
 ---
 
 Process the user's GTD Brain Inbox to zero, one card at a time.
+If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
 
 1. Call `list_columns` to get the column ids, then `list_cards` with the Inbox column id.
 2. Take the cards oldest first. For each, state the title and ask what it really is, then act

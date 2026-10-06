@@ -1,9 +1,14 @@
 ---
 name: waiting-for
-description: Review the user's Waiting For list, flag stale delegated items, and create follow-up actions. Use when the user asks who they are waiting on, wants to chase people, or before a weekend or deadline.
+description: Track what the user is waiting on from other people (their GTD Brain Waiting For list). Use when they say "I'm waiting on Sam for…", "I asked Alex to…", "follow up with…", "chase…", "who owes me a reply?", or before a weekend or deadline.
 ---
 
 Chase the user's Waiting For list.
+If no GTD Brain tool is available, follow `/gtdbrain:setup` instead of guessing.
+
+If the user names something new they are waiting on, get the Waiting For column id from
+`list_columns` and `create_card` it there with `who` and `since` (today if not said), confirm
+in one line, and stop there unless they also want the whole list reviewed.
 
 1. Call `list_waiting_for`. For each card say who the user is waiting on and since when, and
    flag the ones that look stale (older than two weeks, or with no `since` date).
