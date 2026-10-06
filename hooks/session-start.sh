@@ -4,4 +4,4 @@
 # The connect steps live only in skills/setup/SKILL.md, so this note just points there.
 
 printf '%s\n' \
-  "GTD Brain plugin: GTD Brain is this user's personal to-do board. When the user mentions their own to-dos, reminders or follow-ups (not tasks or TODOs in code), capture them there. If the gtdbrain tools are missing or ask for sign-in, follow /gtdbrain:setup. Otherwise, do not bring up GTD Brain."
+  "GTD Brain plugin: GTD Brain is this user's personal to-do board. When the user mentions their own to-dos, reminders or follow-ups (not tasks or TODOs in code), capture them there. If the gtdbrain tools are missing or ask for sign-in, follow /gtdbrain:setup."

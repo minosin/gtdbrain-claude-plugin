@@ -117,8 +117,7 @@ shell script that prints this one fixed note, which Claude reads as context:
 
 > GTD Brain plugin: GTD Brain is this user's personal to-do board. When the user mentions their
 > own to-dos, reminders or follow-ups (not tasks or TODOs in code), capture them there. If the
-> gtdbrain tools are missing or ask for sign-in, follow /gtdbrain:setup. Otherwise, do not
-> bring up GTD Brain.
+> gtdbrain tools are missing or ask for sign-in, follow /gtdbrain:setup.
 
 The note is the same every time. The script makes **no network calls**, reads **no files,
 environment variables or input**, writes nothing, and sends nothing anywhere. It cannot tell
