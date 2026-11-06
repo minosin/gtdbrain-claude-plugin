@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.0 - 2026-11-06
+
+- Removes the `SessionStart` hook added in 1.2.0. The plugin runs no code on your machine
+  again. The `gtd` skill description already tells Claude when to use GTD Brain.
+- Keeps everything else from 1.2.0: the listing icon and links, the `x-platform` header and
+  the 1.1.1 skill and README changes.
+- 1.2.0 never reached the plugin directory.
+
 ## 1.2.0 — 2026-10-06
 
 - A `SessionStart` hook for Claude Code and Cowork. A plain shell script
