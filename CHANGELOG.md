@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 - 2026-11-26
+
+- Changelog only: the 1.2.0 entry no longer names the icon image file. The plugin directory's
+  policy check read that mention as a reference to a file it cannot inspect and held 1.3.0.
+  No change to skills, commands or the MCP server.
+
 ## 1.3.0 - 2026-11-06
 
 - Removes the `SessionStart` hook added in 1.2.0. The plugin runs no code on your machine
@@ -15,7 +21,7 @@
   to-do board, capture their own to-dos there, and follow `/gtdbrain:setup` if the tools are
   missing. No network calls, no files, nothing sent anywhere. The connect steps stay in the
   `setup` skill only. Described in the README under "Session hook".
-- Directory listing fields in `plugin.json`: an `icon` (`icon.png`, the 512×512 app icon)
+- Directory listing fields in `plugin.json`: an `icon` (the 512×512 app icon)
   and links for documentation, support, privacy policy and terms. Claude Code does not read
   them; only the plugin directory listing shows them.
 - `.mcp.json` sends an `x-platform: claude-plugin` header so GTD Brain can count plugin use
